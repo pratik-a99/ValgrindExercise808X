@@ -1,11 +1,22 @@
+/**
+ *  @file  AnalogSensor.hpp
+ *  @author  Pratik Acharya
+ *  @copyright MIT Licence
+ *  @brief Header defining AnalogSensor class
+ */
+
 #pragma once
 
 #include <iostream>
 
+/**
+*   @brief Class AnalogSensor
+*/
+
 class AnalogSensor
 {
 public:
-    AnalogSensor(unsigned int samples);
+    explicit AnalogSensor(unsigned int samples);
     ~AnalogSensor();
     int read();
 private:

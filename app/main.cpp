@@ -14,18 +14,16 @@
 *   @param  None
 *   @return 0
 */
-int main()
-{
+int main() {
     AnalogSensor lightSensor(5);
     std::cout << "Averaged sensor reading: " << lightSensor.read() << std::endl;
 
     // 'Conditional jump or move depends on uninitialised value(s)' solved
     // by initializing 'terminator' utilising 'read()' method
-    bool terminator = lightSensor.read() != NULL ? true : false;
+    bool terminator = lightSensor.read() ? true : false;
 
     // Using 'terminator' to output if computation is completed
-    if( terminator )
-    {
+    if ( terminator ) {
         std::cout << "DONE" << std::endl;
     }
     return 0;
