@@ -20,7 +20,7 @@ int main() {
 
     // 'Conditional jump or move depends on uninitialised value(s)' solved
     // by initializing 'terminator' utilising 'read()' method
-    bool terminator = lightSensor.read() ? true : false;
+    bool terminator = std::cout ? true : false;
 
     // Using 'terminator' to output if computation is completed
     if ( terminator ) {
