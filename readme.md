@@ -1,14 +1,17 @@
-# C++ Boilerplate
+# Valgrind Exercise - 117513615
 [![Build Status](https://travis-ci.org/dpiet/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/dpiet/cpp-boilerplate)
 [![Coverage Status](https://coveralls.io/repos/github/dpiet/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/dpiet/cpp-boilerplate?branch=master)
 ---
 
 ## Overview
 
-Simple starter C++ project with:
+This exercise explores the valgrind tool to improve code quality during development and testing. Valgrind helps detect several types of code issues:
 
-- cmake
-- googletest
+* Undefined behavior
+* Function and memory profiling
+* Data-race detection
+* Memory leak detection
+
 
 ## Standard install via command-line
 ```
@@ -27,3 +30,12 @@ Run program: ./app/shell-app
 ![Output Screen 1](https://github.com/pratik-a99/ValgrindExercise808X/blob/main/result/KCachegrind/KCachegrind_result1.png)
 ![Output Screen 2](https://github.com/pratik-a99/ValgrindExercise808X/blob/main/result/KCachegrind/KCachegrind_result2.png)
 ![Output Screen 3](https://github.com/pratik-a99/ValgrindExercise808X/blob/main/result/KCachegrind/KCachegrind_result3.png)
+
+## Results 
+
+All results stored in seperate subdirectories in the result directory, which include
+* Cpplint
+* Cppcheck
+* Valgrind
+* KCachegrind
+* Doxygen	
