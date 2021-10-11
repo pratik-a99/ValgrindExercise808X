@@ -24,6 +24,6 @@ Run program: ./app/shell-app
 
 ## KCachegrind Outputs
 
-![Output Screen 1](KCachegrind_result1.png)
-![Output Screen 2](KCachegrind_result2.png)
-![Output Screen 3](KCachegrind_result3.png)
+![Output Screen 1](https://github.com/pratik-a99/ValgrindExercise808X/blob/main/result/KCachegrind/KCachegrind_result1.png)
+![Output Screen 2](https://github.com/pratik-a99/ValgrindExercise808X/blob/main/result/KCachegrind/KCachegrind_result2.png)
+![Output Screen 3](https://github.com/pratik-a99/ValgrindExercise808X/blob/main/result/KCachegrind/KCachegrind_result3.png)
