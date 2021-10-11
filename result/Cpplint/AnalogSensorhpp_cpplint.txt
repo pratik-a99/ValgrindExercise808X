@@ -1,1 +1,2 @@
+pratik@ubuntu:~/808X-workspace/Week6/cpp-boilerplate$ cpplint include/AnalogSensor.hpp &> AnalogSensorhpp_cpplint.txt
 Done processing AnalogSensor.hpp

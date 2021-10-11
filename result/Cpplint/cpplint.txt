@@ -1,0 +1,5 @@
+pratik@ubuntu:~/808X-workspace/Week6/cpp-boilerplate$ cpplint $(find . -name *.cpp | grep -vE -e "./build") &> cpplint.txt
+Done processing ./app/AnalogSensor.cpp
+Done processing ./app/main.cpp
+Done processing ./test/main.cpp
+Done processing ./test/test.cpp
