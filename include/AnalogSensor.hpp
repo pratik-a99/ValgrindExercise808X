@@ -13,12 +13,11 @@
 *   @brief Class AnalogSensor
 */
 
-class AnalogSensor
-{
-public:
+class AnalogSensor {
+ public:
     explicit AnalogSensor(unsigned int samples);
     ~AnalogSensor();
     int read();
-private:
+ private:
     unsigned int mSamples;
 };

@@ -16,8 +16,7 @@
 *   @return None
 */
 AnalogSensor::AnalogSensor(unsigned int samples)
-    : mSamples(samples)
-{
+    : mSamples(samples) {
 }
 
 /**
@@ -25,8 +24,7 @@ AnalogSensor::AnalogSensor(unsigned int samples)
 *   @param  None
 *   @return None
 */
-AnalogSensor::~AnalogSensor()
-{
+AnalogSensor::~AnalogSensor() {
 }
 
 /**
@@ -34,11 +32,11 @@ AnalogSensor::~AnalogSensor()
 *   @param[out] result average reading
 *   @return average reading
 */
-int AnalogSensor::read()
-{
+int AnalogSensor::read() {
     std::vector<int> *readings = new std::vector<int>(mSamples, 10);
 
-    double result = std::accumulate( readings->begin(), readings->end(), 0.0 ) / readings->size();
+    double result =
+    std::accumulate(readings->begin(), readings->end(), 0.0) / readings->size();
 
     // deleted the memory allocated with 'new' operator
     // to debug memory loss issue in valgrind
